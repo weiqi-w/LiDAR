@@ -1,0 +1,7 @@
+^\.github$
+^\.git$
+^tools$
+^data-local$
+^results$
+^VALIDATION\.md$
+^GITHUB_SETUP\.md$

@@ -1,0 +1,22 @@
+Package: LiDAR
+Type: Package
+Title: LiDAR integrates ligand propagation and transcriptional responses to infer spatial cell–cell communication
+Version: 0.1.1
+Authors@R: person("Weiqi", "Wang", role = c("aut", "cre"),
+    email = "Wangwq22@mails.tsinghua.edu.cn")
+Description: A computational framework that uses inferred downstream
+    transcriptional responses to constrain models of ligand propagation
+    through tissue. Characterizes ligand-specific propagation patterns and
+    quantifies the spatial correspondence between modeled ligand exposure
+    and downstream transcriptional response in potential receiver cells.
+    Enables the profiling of ligand-mediated cell-cell communication at
+    the original spatial resolution of the input data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: methods, stats, utils, Matrix, SeuratObject, RANN, igraph, dplyr,
+    stringr, R.utils
+Suggests: Seurat, CelliD, dnet, testthat (>= 3.0.0), qs
+Config/testthat/edition: 3
+URL: https://github.com/wangweiqiwq/LiDAR
+BugReports: https://github.com/wangweiqiwq/LiDAR/issues
